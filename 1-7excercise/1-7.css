@@ -1,0 +1,30 @@
+/* ブラウザがそれぞれ持っているCSSをリセットするための記述 */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: grey;
+}
+
+.header-visual{
+  background-image: url(img/mv.jpg);
+  height: 400px;
+  width: 100%;
+  background-position: bottom;
+  background-size: cover;
+}
+
+.header-title{
+ color: grey;
+ padding: 20px 0 0 20px;
+}
+
+.all-services{
+  width: 840px;
+  margin: 20px auto;
+}
+
+.service{
+  border-bottom: 1px solid grey;
+  padding: 30px 0;
+}
